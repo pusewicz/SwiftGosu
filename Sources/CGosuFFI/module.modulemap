@@ -1,4 +1,5 @@
-module CGosuFFI {
+module CGosuFFI [system] {
+  requires cplusplus
   header "shims.h"
   link "gosu-ffi"
   export *
