@@ -1,0 +1,5 @@
+module CGosuFFI {
+  header "shims.h"
+  link "gosu-ffi"
+  export *
+}
